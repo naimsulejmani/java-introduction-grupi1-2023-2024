@@ -10,5 +10,27 @@ public class CharacterExample {
         System.out.println(shkronjaEDyteEVogel);
         System.out.println(spoDiCfareShkonje);
         System.out.println(numriZero);
+
+        char hashtag = '#';
+        char apostrof = '\'';
+        char backslash = '\\';
+        char newline = '\n';
+        System.out.println(hashtag);
+        System.out.println(newline);
+        System.out.println(apostrof);
+        System.out.println("Kosova: \"3 \nShqiperia: 2");
+        System.out.println("\u2605\u2605\u2605\u2605\u2606");
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
