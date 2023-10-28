@@ -20,6 +20,7 @@ public class CharacterExample {
         System.out.println(apostrof);
         System.out.println("Kosova: \"3 \nShqiperia: 2");
         System.out.println("\u2605\u2605\u2605\u2605\u2606");
+        System.out.println("Test\blue");
 
     }
 }
