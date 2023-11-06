@@ -25,10 +25,14 @@ public class Detyra3 {
         System.out.printf("Sa gola ka shenuar %s: ", ekipiMusafir);
         int golaMusafir = reader.nextInt();
 
+        System.out.print("Qmimi i biletes: ");
+        float qmimiIBiletes = reader.nextFloat();
+
         System.out.println("-------------------------------------------------");
         System.out.println("Rezultati perfundimtare");
         System.out.printf("%s - %s  %d - %d%n", ekipiVendas, ekipiMusafir, golaVendas, golaMusafir);
         System.out.printf("Stadiumi %s me gjithsej %d spektatore prezent%n", fusha, numriTifozeve);
+        System.out.printf("Fitimet nga shitja e biletave eshte: %.2f%n", qmimiIBiletes * numriTifozeve);
         System.out.println("-------------------------------------------------");
 
 
