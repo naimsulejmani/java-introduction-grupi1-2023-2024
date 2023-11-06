@@ -9,10 +9,10 @@ public class LigjiNjutonit {
         double a;
         double mass;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Jepni vleren e nxitimit te trupit ne m/s: ");
+        System.out.print("Jepni vleren e nxitimit te trupit ne m/s: ");
         a = scanner.nextDouble();
 
-        System.out.println("Jepni vleren e mases se trupit ne kg: ");
+        System.out.print("Jepni vleren e mases se trupit ne kg: ");
         mass = scanner.nextDouble();
 
         force = mass * a;
