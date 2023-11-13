@@ -10,6 +10,7 @@ public class VellimiIKubit {
         System.out.print("Shkruaj brinjen e kubit A: ");
         double side = reader.nextDouble();
         double volume = side * side * side;
+        //volume = Math.pow(side, 3);
         System.out.printf("Vellimi eshte %.2f %n", volume);
 
 
