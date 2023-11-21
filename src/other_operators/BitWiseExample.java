@@ -7,5 +7,13 @@ public class BitWiseExample {
         System.out.println(42 ^ 15);
         byte b = 42;
         System.out.println(~b);
+        int numri = 1;
+        System.out.println(numri << 1);
+        System.out.println(numri << 2);
+        System.out.println(numri << 3);
+
+        System.out.println(b << 1);
+        System.out.println(b << 2);
+        System.out.println(b << 3);
     }
 }
